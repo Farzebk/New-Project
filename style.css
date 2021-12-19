@@ -1,0 +1,141 @@
+marquee {
+    background-color: #dd9933;
+    color: #5a175d;
+}
+
+body {
+  text-align: center;
+  margin: 0 0;
+  background-color: #bbbbbb;
+  padding: 0;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.contactush1 {
+  font-size: 50px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+  margin: 0 10%;
+  text-align: justify;
+}
+
+.contactusp {
+  text-align: center;
+  font-size: large;
+}
+
+hr {
+    margin: 50px 0;
+    border: 0;
+    height: 1px;
+    background: #5a175d;
+    background-image: -webkit-linear-gradient(left, #dd9933, #5a175d, #dd9933);
+    background-image: -moz-linear-gradient(left, #dd9933, #5a175d, #dd9933);
+    background-image: -ms-linear-gradient(left, #dd9933, #5a175d, #dd9933);
+    background-image: -o-linear-gradient(left, #dd9933, #5a175d, #dd9933);
+    }
+
+table {
+  margin: 5% 10%;
+  width: 80%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: #aaaaaa;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+th {
+  height: 30px;
+  background-color: #dd9933;
+}
+
+tr:hover {
+  background-color: #67074e;
+  color: white;
+}
+
+caption {
+  font-size: larger;
+}
+
+footer {
+  padding: 10px 20px;
+  background-color: #5a175d;
+  color: white;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a.footer-link:hover {
+  color: #dd9933;
+  font-size: 150%;
+}
+
+.copyright {
+  margin-top: 15px;
+  text-align: center;
+}
+
+/*------------------------- nav bar==================================== */
+ul {
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5a175d;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #dd9933;
+}
+
+.logo-image img {
+  width: 70px;
+  height: 46px;
+  border-radius: 5%;
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutus {
+    background-image: url(image/aboutus.jpg);
+    opacity: 0.5;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
